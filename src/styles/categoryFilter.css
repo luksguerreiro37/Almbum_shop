@@ -1,0 +1,60 @@
+.category__filter{
+    display: flex;
+    flex-direction: column;
+    width: 641px;
+    gap: 24px;
+    order: 1;
+}
+.category__filter h2{
+    font-weight: 600;
+    font-size: var(--font-2);
+    line-height: 19px;
+    color: var(--color-grey-2);
+}
+.category__filter div{
+    display: flex;
+    gap: 30.14px;
+    flex-wrap: wrap;
+}
+.filter__button__dark{
+    background: #2B2F33;
+    font-size: var(--font-3);
+    font-weight: 500;
+    color: var(--color-grey-3);
+    padding: 8px 8px;
+    border: 1px solid var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+.filter__button__dark:hover{
+    border: 1px solid #FDFEFF;
+    color: var(--color-grey-9);
+    transition: 0.35s;
+    transform: scale(1.2);
+    transition-delay: 0.05s;
+}
+.filter__button__dark:focus{
+    border: 1px solid #FDFEFF;
+    color: var(--color-grey-9);
+}
+.filter__button{
+    background-color: var(--color-grey-8);
+    font-size: var(--font-3);
+    font-weight: 500;
+    color: var(--color-grey-2);
+    padding: 8px 8px;
+    border: 1px solid var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+.filter__button:hover{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    transition: 0.4s;
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+}
+.filter__button:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
